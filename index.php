@@ -119,46 +119,32 @@ if(array_key_exists('submit',$_GET)){
 
         <div class="weather-forecast" id="weather-forecast">
             <div class="weather-forecast-item">
-                <div class="day">SAT</div>
+                <div class="day">WED</div>
                 <p><?php echo "<img src='https://openweathermap.org/img/wn/".$iconsa."@2x.png'>";?></p>
                 <h6>Temp : <?php echo $tempareturesa ;?></h6>
                 <h6>Wind: <?php echo $windsa ;?> M/S</h6>
                 <h6>Humidity : <?php echo $humiditysa;?>%</h6>
             </div>
             <div class="weather-forecast-item">
-                <div class="day">SUN</div>
+                <div class="day">THU</div>
                 <p><?php echo "<img src='https://openweathermap.org/img/wn/".$iconsu."@2x.png'>";?></p>
                 <h6>Temp : <?php echo $tempareturesu ;?></h6>
                 <h6>Wind: <?php echo $windsu ;?> M/S</h6>
                 <h6>Humidity : <?php echo $humiditysu;?>%</h6>
             </div>
             <div class="weather-forecast-item">
-                <div class="day">MON</div>
+                <div class="day">FRI</div>
                 <p><?php echo "<img src='https://openweathermap.org/img/wn/".$iconmo."@2x.png'>";?></p>
                 <h6>Temp : <?php echo $tempareturemo ;?></h6>
                 <h6>Wind: <?php echo $windmo;?> M/S</h6>
                 <h6>Humidity : <?php echo $humiditymo;?>%</h6>
             </div>
             <div class="weather-forecast-item">
-                <div class="day">TUES</div>
+                <div class="day">MON</div>
                 <p><?php echo "<img src='https://openweathermap.org/img/wn/".$icontu."@2x.png'>";?></p>
                 <h6>Temp : <?php echo $tempareturetu ;?></h6>
                 <h6>Wind: <?php echo $windtu ;?> M/S</h6>
                 <h6>Humidity : <?php echo $humiditytu;?>%</h6>
-            </div>
-            <div class="weather-forecast-item">
-                <div class="day">WED</div>
-                <p><?php echo "<img src='https://openweathermap.org/img/wn/".$iconwe."@2x.png'>";?></p>
-                <h6>Temp : <?php echo $tempareturewe ;?></h6>
-                <h6>Wind: <?php echo $windwe ;?> M/S</h6>
-                <h6>Humidity : <?php echo $humiditywe;?>%</h6>
-            </div>
-            <div class="weather-forecast-item">
-                <div class="day">FRI</div>
-                <p><?php echo "<img src='https://openweathermap.org/img/wn/".$iconsu."@2x.png'>";?></p>
-                <h5>Temperature:<?php echo $tempareture ;?></h5>
-                <h5>Wind : <?php echo $wind ;?> M/S</h5>
-                <h5>Humidity : <?php echo $humidity;?>%</h5>
             </div>
         </div>
     </div>
